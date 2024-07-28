@@ -1,0 +1,85 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c9d6ff;
+    background:linear-gradient(to right,#d3abab,#c9d6ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width:450px;
+    background-color: #c9d6ff;
+    padding:1.5rem;
+    margin:50px auto;
+    border-radius:10px;
+    box-shadow:0 20px 35px rgba(0,0,1,0.9);  
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-google {
+    background-color: #dd4b39;
+    border: none;
+}
+
+.btn-google:hover {
+    background-color: #c23321;
+}
+
+.btn-facebook {
+    background-color: #3b5998;
+    border: none;
+}
+
+.btn-facebook:hover {
+    background-color: #2d4373;
+}
+
+.text-center p {
+    margin: 15px 0;
+}
+
+#signInButton {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+#signInButton:hover {
+    text-decoration: underline;
+}
+
+p.text-center {
+    font-size: 0.9rem;
+    color: #6c757d;
+}

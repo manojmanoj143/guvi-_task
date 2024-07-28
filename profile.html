@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.scss">
+    <link rel="stylesheet" href="./css/profile.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Profile</h2>
+        <form id="profileForm">
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" class="form-control" id="dob" name="dob" required>
+            </div>
+            <div class="form-group">
+                <label for="fathername">Father's Name:</label>
+                <input type="text" class="form-control" id="fathername" name="fathername" required>
+            </div>
+            <div class="form-group">
+                <label for="mothername">Mother's Name:</label>
+                <input type="text" class="form-control" id="mothername" name="mothername" required>
+            </div>
+            <div class="form-group">
+                <label for="contact">Contact:</label>
+                <input type="text" class="form-control" id="contact" name="contact" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Update Profile</button>
+            <div id="message"></div>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/profile.js"></script>
+</body>
+</html>
